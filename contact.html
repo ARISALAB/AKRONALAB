@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="contact.meta.title">Επικοινωνία | AR Akron Services</title>
+<meta name="description" content="Επικοινωνήστε με την AR Akron Services για συμβουλευτική εστίασης, τουρισμού και φιλοξενίας. Τηλέφωνο, email, διεύθυνση και φόρμα επικοινωνίας.">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-solid-header>
+<a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">AR <span>Akron</span></a>
+    <nav class="site-nav" id="site-nav">
+      <a href="index.html" data-i18n="nav.home">Αρχική</a>
+      <a href="about.html" data-i18n="nav.about">Σχετικά</a>
+      <a href="services.html" data-i18n="nav.services">Υπηρεσίες</a>
+      <a href="contact.html" aria-current="page" data-i18n="nav.contact">Επικοινωνία</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang-switch" role="group" aria-label="Γλώσσα / Language">
+        <button data-lang="el" class="is-active">EL</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+      </div>
+      <button class="nav-toggle" aria-label="Μενού" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow" data-i18n="contact.hero.eyebrow">Επικοινωνία</p>
+      <h1 data-i18n="contact.hero.title">Ας μιλήσουμε για το επόμενο βήμα.</h1>
+      <p class="lede" data-i18n="contact.hero.lede">Είτε ανοίγετε κάτι καινούργιο είτε θέλετε να βελτιώσετε αυτό που ήδη λειτουργεί, ξεκινάμε με μια απλή συζήτηση.</p>
+    </div>
+  </section>
+
+  <section class="bg-cream">
+    <div class="container contact-grid" data-reveal>
+
+      <div>
+        <h2 style="font-size:1.4rem;margin-bottom:1.2rem;" data-i18n="contact.form.sendTitle">Στείλτε μας μήνυμα</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name" data-i18n="contact.form.nameLabel">Το όνομά σας</label>
+            <input type="text" id="name" name="name" required autocomplete="name" data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Ονοματεπώνυμο">
+          </div>
+          <div class="form-field">
+            <label for="email" data-i18n="contact.form.emailLabel">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="you@example.com">
+          </div>
+          <div class="form-field">
+            <label for="message" data-i18n="contact.form.messageLabel">Μήνυμα</label>
+            <textarea id="message" name="message" required data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Πείτε μας λίγα λόγια για την επιχείρησή σας και τι ψάχνετε."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary"><span data-i18n="contact.form.submit">Αποστολή μηνύματος</span> <span class="btn-arrow" aria-hidden="true">→</span></button>
+          <p class="form-note" data-i18n="contact.form.note">Θα σας απαντήσουμε εντός 1–2 εργάσιμων ημερών.</p>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2 style="font-size:1.4rem;margin-bottom:0.4rem;">AR Akron Services</h2>
+        <dl>
+          <dt data-i18n="contact.info.addressLabel">Διεύθυνση</dt>
+          <dd>Γρίβα Διγενή 2, 173 42<br>Άγιος Δημήτριος, Αττική</dd>
+
+          <dt data-i18n="contact.info.phoneLabel">Τηλέφωνο</dt>
+          <dd><a href="tel:+306983661460">+30 698 366 1460</a></dd>
+
+          <dt data-i18n="contact.info.emailLabel">Email</dt>
+          <dd><a href="mailto:akronservices@mail.com">akronservices@mail.com</a></dd>
+        </dl>
+
+        <div class="social-row">
+          <a href="https://www.facebook.com/arakronservices" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/arakronservices/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://g.co/kgs/NGnwr8o" target="_blank" rel="noopener">Google</a>
+        </div>
+
+        <iframe class="map-frame" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Χάρτης — AR Akron Services"
+          src="https://maps.google.com/maps?q=%CE%93%CF%81%CE%AF%CE%B2%CE%B1%20%CE%94%CE%B9%CE%B3%CE%B5%CE%BD%CE%AE%202%2C%2017342%20%CE%86%CE%B3%CE%B9%CE%BF%CF%82%20%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B9%CE%BF%CF%82&output=embed">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-logo">AR <span>Akron</span> Services</p>
+        <p data-i18n="footer.tagline">Σύμβουλοι εστίασης, τουρισμού &amp; φιλοξενίας. Με έδρα την Αθήνα, δουλεύουμε με επιχειρήσεις σε όλη την Ελλάδα.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.navTitle">Πλοήγηση</h4>
+        <a href="index.html" data-i18n="nav.home">Αρχική</a>
+        <a href="about.html" data-i18n="nav.about">Σχετικά</a>
+        <a href="services.html" data-i18n="nav.services">Υπηρεσίες</a>
+        <a href="contact.html" data-i18n="nav.contact">Επικοινωνία</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.followTitle">Ακολουθήστε μας</h4>
+        <a href="https://www.facebook.com/arakronservices" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/arakronservices/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> AR Akron Services. <span data-i18n="footer.rightsSuffix">Όλα τα δικαιώματα διατηρούνται.</span></span>
+      <span>Αθήνα, Ελλάδα</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
